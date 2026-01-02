@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Red-Black Tree Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script>
+</head>
+<body>
+<header>
+    <h1>Red-Black Tree Visualizer</h1>
+    <p>Learn insertions, deletions, rotations, and recoloring interactively</p>
+</header>
+
+<section id="controls">
+    <input type="number" id="valueInput" placeholder="Enter value">
+    <button onclick="insertNode()">Insert</button>
+    <button onclick="deleteNode()">Delete</button>
+    <button onclick="resetTree()">Reset</button>
+</section>
+
+<div id="message"></div>
+<div id="cy"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
