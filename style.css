@@ -55,17 +55,21 @@ header {
     min-height: 40px;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
 #cy {
     width: 100%;
+    max-width: 1200px;
     height: 700px;
-    border: 2px solid #dee2e6;
-    margin-top: 15px;
-    border-radius: 10px;
-    background-color: white;
-    overflow: auto;
 }
 
 .highlight {
     border-color: #ffc107 !important;
     border-width: 4px !important;
 }
+
